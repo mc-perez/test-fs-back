@@ -5,11 +5,12 @@
   "author": "mc-perez <mauriciocperez@gmail.com>",
   "license": "MIT",
   "private": true,
-  "scripts":{
+  "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js"
   },
-  "devDependencies": { 
+  "devDependencies": {
+    "dotenv": "^16.0.3",
     "nodemon": "^2.0.22"
   }
 }

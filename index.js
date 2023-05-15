@@ -1,3 +1,5 @@
+require("dotenv").config()
+
 const http = require("http");
 //console.log({ http });
 
@@ -22,5 +24,9 @@ function requestController() {
 }
 
 const server = http.createServer(requestController);
+const PORT = process.env.PORT
 
-server.listen(4000);
+server.listen(PORT, function() {
+    //console.log({ env: process })
+    console.log("App running in port " + PORT)
+});
