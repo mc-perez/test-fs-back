@@ -1,0 +1,11 @@
+{
+  "name": "test-full-stack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "mc-perez <mauriciocperez@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
